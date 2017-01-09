@@ -1,0 +1,47 @@
+*/* :not(.xdebug-var-dump) */ {font-family: 'Open Sans'; margin: 0; padding: 0; box-sizing: border-box;}
+body > div { width: 100%; }
+.display-flex { display: flex; flex-direction: column; justify-content: space-around; align-items: center;}
+.post { width: 50vw; margin: 0.5rem 1rem; outline: 1px solid silver; align-itrems: stretch;}
+.track {flex-direction: initial; justify-content: space-between; padding: 0.5rem;}
+.post-link {text-decoration: none; line-height: 0.8; font-size: 2rem;}
+.copyrast { background-color: #e3e3e3;}
+
+.userlogin,
+.userinfo {
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+  box-shadow: 0 0 1rem silver;
+}
+
+.userlogin {
+  padding: 0.4rem 0.5rem 0.5rem;
+  cursor: pointer;
+  text-decoration:  none;
+  font-weight: 500;
+  color:  #333;
+}
+.userlogin:hover {
+  background-color: silver;
+}
+
+.userinfo {
+  min-width: 170px;
+  padding: 0.4rem 0.5rem 0.5rem;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.userinfo a.name {
+  width: 50%;
+}
+
+main {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.post.empty-url {
+  background-color: rgba(255,0,0, 0.26);
+}
